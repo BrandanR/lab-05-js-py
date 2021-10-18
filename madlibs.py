@@ -1,9 +1,5 @@
-    var noun = 'school';
-    var adjective = 'fast';
-    var adverb = 'accidentally';
-    var verb = 'walked';
-    var noun = prompt("school");
-    var adjective = prompt("fast");
-    var adverb = prompt("accidentally");
-    var verb = prompt("walked");
-    console.log("On a school" + "Underneath a fast lava moon" + "accidentally with the hula dancers" + "walked questions cause they always got the answers");
+noun = prompt("Enter a noun:")
+adjective = prompt("Enter an adjective:")
+adverb = prompt("Enter an adverb:")
+verb= prompt("Enter a verb:")
+input("On a", adjective, "island,Underneath a", adverb,  "lava moon. Hangin' with the hula", noun + " Askin' questions cause' they", verb,  "all the answers.")
